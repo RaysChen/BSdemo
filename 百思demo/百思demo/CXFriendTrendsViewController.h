@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CXFriendTrendsViewController.h
 //  百思demo
 //
 //  Created by 陈曦 on 16/4/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CXFriendTrendsViewController : UIViewController
 
 @end
-

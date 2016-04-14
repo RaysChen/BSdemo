@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CXTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -24,20 +24,17 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     
     // 设置窗口的根控制器
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[CXTabBarController alloc] init];
     
     // 显示窗口
     [self.window makeKeyAndVisible];
     
-    
-    
-    
-    
-    
-    
-    
     return YES;
 }
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

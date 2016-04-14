@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		1539113B1CBF7A930033C7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539113A1CBF7A930033C7CE /* main.m */; };
 		1539113E1CBF7A930033C7CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539113D1CBF7A930033C7CE /* AppDelegate.m */; };
-		153911411CBF7A930033C7CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153911401CBF7A930033C7CE /* ViewController.m */; };
 		153911441CBF7A930033C7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911421CBF7A930033C7CE /* Main.storyboard */; };
 		153911461CBF7A930033C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153911451CBF7A930033C7CE /* Assets.xcassets */; };
 		153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911471CBF7A930033C7CE /* LaunchScreen.storyboard */; };
 		153911541CBF7A930033C7CE /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153911531CBF7A930033C7CE /* __demoTests.m */; };
 		1539115F1CBF7A930033C7CE /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539115E1CBF7A930033C7CE /* __demoUITests.m */; };
+		154DAEE41CBFAB4E00FD4360 /* UIView+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */; };
+		1589F80B1CBFA65B00BDB4F9 /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */; };
+		1589F80E1CBFA67400BDB4F9 /* CXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */; };
+		1589F8111CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */; };
+		1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */; };
+		1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */; };
+		1589F81A1CBFA71E00BDB4F9 /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		1539113A1CBF7A930033C7CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1539113C1CBF7A930033C7CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1539113D1CBF7A930033C7CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1539113F1CBF7A930033C7CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		153911401CBF7A930033C7CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		153911431CBF7A930033C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		153911451CBF7A930033C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153911481CBF7A930033C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,21 @@
 		1539115A1CBF7A930033C7CE /* 百思demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1539115E1CBF7A930033C7CE /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
 		153911601CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154DAEE21CBFAB4E00FD4360 /* UIView+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXExtension.h"; sourceTree = "<group>"; };
+		154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXExtension.m"; sourceTree = "<group>"; };
+		154DAEE51CBFAB9B00FD4360 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1589F8091CBFA65B00BDB4F9 /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
+		1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
+		1589F80C1CBFA67400BDB4F9 /* CXNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNewViewController.h; sourceTree = "<group>"; };
+		1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNewViewController.m; sourceTree = "<group>"; };
+		1589F80F1CBFA69A00BDB4F9 /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
+		1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXFriendTrendsViewController.m; sourceTree = "<group>"; };
+		1589F8121CBFA6AF00BDB4F9 /* CXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMeViewController.h; sourceTree = "<group>"; };
+		1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMeViewController.m; sourceTree = "<group>"; };
+		1589F8151CBFA6E600BDB4F9 /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
+		1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
+		1589F8181CBFA71E00BDB4F9 /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
+		1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +122,21 @@
 			children = (
 				1539113C1CBF7A930033C7CE /* AppDelegate.h */,
 				1539113D1CBF7A930033C7CE /* AppDelegate.m */,
-				1539113F1CBF7A930033C7CE /* ViewController.h */,
-				153911401CBF7A930033C7CE /* ViewController.m */,
-				153911421CBF7A930033C7CE /* Main.storyboard */,
-				153911451CBF7A930033C7CE /* Assets.xcassets */,
-				153911471CBF7A930033C7CE /* LaunchScreen.storyboard */,
-				1539114A1CBF7A930033C7CE /* Info.plist */,
+				1589F8091CBFA65B00BDB4F9 /* CXEssenceViewController.h */,
+				1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */,
+				1589F80C1CBFA67400BDB4F9 /* CXNewViewController.h */,
+				1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */,
+				1589F80F1CBFA69A00BDB4F9 /* CXFriendTrendsViewController.h */,
+				1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */,
+				1589F8121CBFA6AF00BDB4F9 /* CXMeViewController.h */,
+				1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */,
+				1589F8151CBFA6E600BDB4F9 /* CXTabBarController.h */,
+				1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */,
+				1589F8181CBFA71E00BDB4F9 /* CXTabBar.h */,
+				1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */,
+				154DAEE21CBFAB4E00FD4360 /* UIView+CXExtension.h */,
+				154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */,
+				154DAEE51CBFAB9B00FD4360 /* PrefixHeader.pch */,
 				153911391CBF7A930033C7CE /* Supporting Files */,
 			);
 			path = "百思demo";
@@ -117,6 +145,10 @@
 		153911391CBF7A930033C7CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				153911421CBF7A930033C7CE /* Main.storyboard */,
+				153911451CBF7A930033C7CE /* Assets.xcassets */,
+				153911471CBF7A930033C7CE /* LaunchScreen.storyboard */,
+				1539114A1CBF7A930033C7CE /* Info.plist */,
 				1539113A1CBF7A930033C7CE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -202,6 +234,7 @@
 		1539112E1CBF7A930033C7CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CX;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenxi;
 				TargetAttributes = {
@@ -273,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153911411CBF7A930033C7CE /* ViewController.m in Sources */,
+				1589F80B1CBFA65B00BDB4F9 /* CXEssenceViewController.m in Sources */,
+				1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */,
+				1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */,
+				154DAEE41CBFAB4E00FD4360 /* UIView+CXExtension.m in Sources */,
 				1539113E1CBF7A930033C7CE /* AppDelegate.m in Sources */,
+				1589F80E1CBFA67400BDB4F9 /* CXNewViewController.m in Sources */,
+				1589F81A1CBFA71E00BDB4F9 /* CXTabBar.m in Sources */,
 				1539113B1CBF7A930033C7CE /* main.m in Sources */,
+				1589F8111CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +395,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思demo/prefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -398,6 +438,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思demo/prefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -501,6 +542,7 @@
 				153911651CBF7A930033C7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		153911661CBF7A930033C7CE /* Build configuration list for PBXNativeTarget "百思demoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +551,7 @@
 				153911681CBF7A930033C7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		153911691CBF7A930033C7CE /* Build configuration list for PBXNativeTarget "百思demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +560,7 @@
 				1539116B1CBF7A930033C7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
