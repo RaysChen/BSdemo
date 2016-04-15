@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1539113B1CBF7A930033C7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539113A1CBF7A930033C7CE /* main.m */; };
-		1539113E1CBF7A930033C7CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539113D1CBF7A930033C7CE /* AppDelegate.m */; };
 		153911441CBF7A930033C7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911421CBF7A930033C7CE /* Main.storyboard */; };
 		153911461CBF7A930033C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153911451CBF7A930033C7CE /* Assets.xcassets */; };
 		153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911471CBF7A930033C7CE /* LaunchScreen.storyboard */; };
 		153911541CBF7A930033C7CE /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153911531CBF7A930033C7CE /* __demoTests.m */; };
 		1539115F1CBF7A930033C7CE /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539115E1CBF7A930033C7CE /* __demoUITests.m */; };
-		154DAEE41CBFAB4E00FD4360 /* UIView+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */; };
-		1589F80B1CBFA65B00BDB4F9 /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */; };
-		1589F80E1CBFA67400BDB4F9 /* CXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */; };
-		1589F8111CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */; };
-		1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */; };
-		1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */; };
-		1589F81A1CBFA71E00BDB4F9 /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */; };
-		15DA97C31CC0E12C004D174C /* UIBarButtonItem+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */; };
+		15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */; };
+		15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */; };
+		15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97D41CC0ECC8004D174C /* CXMeViewController.m */; };
+		15DA97F01CC0ECC8004D174C /* CXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97DA1CC0ECC8004D174C /* CXNewViewController.m */; };
+		15DA97F11CC0ECC8004D174C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97DF1CC0ECC8004D174C /* AppDelegate.m */; };
+		15DA97F21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m */; };
+		15DA97F31CC0ECC8004D174C /* UIView+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E41CC0ECC8004D174C /* UIView+CXExtension.m */; };
+		15DA97F41CC0ECC8004D174C /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E71CC0ECC8004D174C /* CXTabBarController.m */; };
+		15DA97F51CC0ECC8004D174C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E81CC0ECC8004D174C /* main.m */; };
+		15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97EC1CC0ECC8004D174C /* CXTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +43,6 @@
 
 /* Begin PBXFileReference section */
 		153911361CBF7A930033C7CE /* 百思demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1539113A1CBF7A930033C7CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1539113C1CBF7A930033C7CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1539113D1CBF7A930033C7CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		153911431CBF7A930033C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		153911451CBF7A930033C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153911481CBF7A930033C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,23 +53,26 @@
 		1539115A1CBF7A930033C7CE /* 百思demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1539115E1CBF7A930033C7CE /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
 		153911601CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		154DAEE21CBFAB4E00FD4360 /* UIView+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXExtension.h"; sourceTree = "<group>"; };
-		154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXExtension.m"; sourceTree = "<group>"; };
-		154DAEE51CBFAB9B00FD4360 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		1589F8091CBFA65B00BDB4F9 /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
-		1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
-		1589F80C1CBFA67400BDB4F9 /* CXNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNewViewController.h; sourceTree = "<group>"; };
-		1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNewViewController.m; sourceTree = "<group>"; };
-		1589F80F1CBFA69A00BDB4F9 /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
-		1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXFriendTrendsViewController.m; sourceTree = "<group>"; };
-		1589F8121CBFA6AF00BDB4F9 /* CXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMeViewController.h; sourceTree = "<group>"; };
-		1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMeViewController.m; sourceTree = "<group>"; };
-		1589F8151CBFA6E600BDB4F9 /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
-		1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
-		1589F8181CBFA71E00BDB4F9 /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
-		1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
-		15DA97C11CC0E12C004D174C /* UIBarButtonItem+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CXExtension.h"; sourceTree = "<group>"; };
-		15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CXExtension.m"; sourceTree = "<group>"; };
+		15DA97C71CC0ECC8004D174C /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
+		15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
+		15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
+		15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXFriendTrendsViewController.m; sourceTree = "<group>"; };
+		15DA97D31CC0ECC8004D174C /* CXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMeViewController.h; sourceTree = "<group>"; };
+		15DA97D41CC0ECC8004D174C /* CXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMeViewController.m; sourceTree = "<group>"; };
+		15DA97D91CC0ECC8004D174C /* CXNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNewViewController.h; sourceTree = "<group>"; };
+		15DA97DA1CC0ECC8004D174C /* CXNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNewViewController.m; sourceTree = "<group>"; };
+		15DA97DE1CC0ECC8004D174C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15DA97DF1CC0ECC8004D174C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15DA97E11CC0ECC8004D174C /* UIBarButtonItem+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CXExtension.h"; sourceTree = "<group>"; };
+		15DA97E21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CXExtension.m"; sourceTree = "<group>"; };
+		15DA97E31CC0ECC8004D174C /* UIView+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXExtension.h"; sourceTree = "<group>"; };
+		15DA97E41CC0ECC8004D174C /* UIView+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXExtension.m"; sourceTree = "<group>"; };
+		15DA97E61CC0ECC8004D174C /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
+		15DA97E71CC0ECC8004D174C /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
+		15DA97E81CC0ECC8004D174C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15DA97EB1CC0ECC8004D174C /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
+		15DA97EC1CC0ECC8004D174C /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
+		15DA97F71CC0EDD4004D174C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = "百思demo/PrefixHeader.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		1539112D1CBF7A930033C7CE = {
 			isa = PBXGroup;
 			children = (
+				15DA97F71CC0EDD4004D174C /* PrefixHeader.pch */,
 				153911381CBF7A930033C7CE /* 百思demo */,
 				153911521CBF7A930033C7CE /* 百思demoTests */,
 				1539115D1CBF7A930033C7CE /* 百思demoUITests */,
@@ -123,25 +124,7 @@
 		153911381CBF7A930033C7CE /* 百思demo */ = {
 			isa = PBXGroup;
 			children = (
-				1539113C1CBF7A930033C7CE /* AppDelegate.h */,
-				1539113D1CBF7A930033C7CE /* AppDelegate.m */,
-				1589F8091CBFA65B00BDB4F9 /* CXEssenceViewController.h */,
-				1589F80A1CBFA65B00BDB4F9 /* CXEssenceViewController.m */,
-				1589F80C1CBFA67400BDB4F9 /* CXNewViewController.h */,
-				1589F80D1CBFA67400BDB4F9 /* CXNewViewController.m */,
-				1589F80F1CBFA69A00BDB4F9 /* CXFriendTrendsViewController.h */,
-				1589F8101CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m */,
-				1589F8121CBFA6AF00BDB4F9 /* CXMeViewController.h */,
-				1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */,
-				1589F8151CBFA6E600BDB4F9 /* CXTabBarController.h */,
-				1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */,
-				1589F8181CBFA71E00BDB4F9 /* CXTabBar.h */,
-				1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */,
-				154DAEE21CBFAB4E00FD4360 /* UIView+CXExtension.h */,
-				154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */,
-				15DA97C11CC0E12C004D174C /* UIBarButtonItem+CXExtension.h */,
-				15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */,
-				154DAEE51CBFAB9B00FD4360 /* PrefixHeader.pch */,
+				15DA97C41CC0ECC8004D174C /* classes */,
 				153911391CBF7A930033C7CE /* Supporting Files */,
 			);
 			path = "百思demo";
@@ -154,7 +137,6 @@
 				153911451CBF7A930033C7CE /* Assets.xcassets */,
 				153911471CBF7A930033C7CE /* LaunchScreen.storyboard */,
 				1539114A1CBF7A930033C7CE /* Info.plist */,
-				1539113A1CBF7A930033C7CE /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +157,192 @@
 				153911601CBF7A930033C7CE /* Info.plist */,
 			);
 			path = "百思demoUITests";
+			sourceTree = "<group>";
+		};
+		15DA97C41CC0ECC8004D174C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97C51CC0ECC8004D174C /* Essence_精华 */,
+				15DA97CB1CC0ECC8004D174C /* FriendTrends-关注 */,
+				15DA97D11CC0ECC8004D174C /* Me-我 */,
+				15DA97D71CC0ECC8004D174C /* New-新帖 */,
+				15DA97DD1CC0ECC8004D174C /* Other-其他 */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		15DA97C51CC0ECC8004D174C /* Essence_精华 */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97C61CC0ECC8004D174C /* controller */,
+				15DA97C91CC0ECC8004D174C /* model */,
+				15DA97CA1CC0ECC8004D174C /* view */,
+			);
+			path = "Essence_精华";
+			sourceTree = "<group>";
+		};
+		15DA97C61CC0ECC8004D174C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97C71CC0ECC8004D174C /* CXEssenceViewController.h */,
+				15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		15DA97C91CC0ECC8004D174C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		15DA97CA1CC0ECC8004D174C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		15DA97CB1CC0ECC8004D174C /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97CC1CC0ECC8004D174C /* controller */,
+				15DA97CF1CC0ECC8004D174C /* model */,
+				15DA97D01CC0ECC8004D174C /* view */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		15DA97CC1CC0ECC8004D174C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */,
+				15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		15DA97CF1CC0ECC8004D174C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		15DA97D01CC0ECC8004D174C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		15DA97D11CC0ECC8004D174C /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97D21CC0ECC8004D174C /* controller */,
+				15DA97D51CC0ECC8004D174C /* model */,
+				15DA97D61CC0ECC8004D174C /* view */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		15DA97D21CC0ECC8004D174C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97D31CC0ECC8004D174C /* CXMeViewController.h */,
+				15DA97D41CC0ECC8004D174C /* CXMeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		15DA97D51CC0ECC8004D174C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		15DA97D61CC0ECC8004D174C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		15DA97D71CC0ECC8004D174C /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97D81CC0ECC8004D174C /* controller */,
+				15DA97DB1CC0ECC8004D174C /* model */,
+				15DA97DC1CC0ECC8004D174C /* view */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		15DA97D81CC0ECC8004D174C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97D91CC0ECC8004D174C /* CXNewViewController.h */,
+				15DA97DA1CC0ECC8004D174C /* CXNewViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		15DA97DB1CC0ECC8004D174C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		15DA97DC1CC0ECC8004D174C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		15DA97DD1CC0ECC8004D174C /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97DE1CC0ECC8004D174C /* AppDelegate.h */,
+				15DA97DF1CC0ECC8004D174C /* AppDelegate.m */,
+				15DA97E01CC0ECC8004D174C /* category */,
+				15DA97E51CC0ECC8004D174C /* controller */,
+				15DA97E81CC0ECC8004D174C /* main.m */,
+				15DA97EA1CC0ECC8004D174C /* view */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		15DA97E01CC0ECC8004D174C /* category */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97E11CC0ECC8004D174C /* UIBarButtonItem+CXExtension.h */,
+				15DA97E21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m */,
+				15DA97E31CC0ECC8004D174C /* UIView+CXExtension.h */,
+				15DA97E41CC0ECC8004D174C /* UIView+CXExtension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		15DA97E51CC0ECC8004D174C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97E61CC0ECC8004D174C /* CXTabBarController.h */,
+				15DA97E71CC0ECC8004D174C /* CXTabBarController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		15DA97EA1CC0ECC8004D174C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15DA97EB1CC0ECC8004D174C /* CXTabBar.h */,
+				15DA97EC1CC0ECC8004D174C /* CXTabBar.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,16 +479,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1589F80B1CBFA65B00BDB4F9 /* CXEssenceViewController.m in Sources */,
-				15DA97C31CC0E12C004D174C /* UIBarButtonItem+CXExtension.m in Sources */,
-				1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */,
-				1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */,
-				154DAEE41CBFAB4E00FD4360 /* UIView+CXExtension.m in Sources */,
-				1539113E1CBF7A930033C7CE /* AppDelegate.m in Sources */,
-				1589F80E1CBFA67400BDB4F9 /* CXNewViewController.m in Sources */,
-				1589F81A1CBFA71E00BDB4F9 /* CXTabBar.m in Sources */,
-				1539113B1CBF7A930033C7CE /* main.m in Sources */,
-				1589F8111CBFA69A00BDB4F9 /* CXFriendTrendsViewController.m in Sources */,
+				15DA97F01CC0ECC8004D174C /* CXNewViewController.m in Sources */,
+				15DA97F21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m in Sources */,
+				15DA97F41CC0ECC8004D174C /* CXTabBarController.m in Sources */,
+				15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */,
+				15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */,
+				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
+				15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */,
+				15DA97F11CC0ECC8004D174C /* AppDelegate.m in Sources */,
+				15DA97F51CC0ECC8004D174C /* main.m in Sources */,
+				15DA97F31CC0ECC8004D174C /* UIView+CXExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
