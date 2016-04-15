@@ -21,6 +21,7 @@
 		1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8131CBFA6AF00BDB4F9 /* CXMeViewController.m */; };
 		1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */; };
 		1589F81A1CBFA71E00BDB4F9 /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */; };
+		15DA97C31CC0E12C004D174C /* UIBarButtonItem+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		1589F8161CBFA6E600BDB4F9 /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
 		1589F8181CBFA71E00BDB4F9 /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
 		1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
+		15DA97C11CC0E12C004D174C /* UIBarButtonItem+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CXExtension.h"; sourceTree = "<group>"; };
+		15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CXExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				1589F8191CBFA71E00BDB4F9 /* CXTabBar.m */,
 				154DAEE21CBFAB4E00FD4360 /* UIView+CXExtension.h */,
 				154DAEE31CBFAB4E00FD4360 /* UIView+CXExtension.m */,
+				15DA97C11CC0E12C004D174C /* UIBarButtonItem+CXExtension.h */,
+				15DA97C21CC0E12C004D174C /* UIBarButtonItem+CXExtension.m */,
 				154DAEE51CBFAB9B00FD4360 /* PrefixHeader.pch */,
 				153911391CBF7A930033C7CE /* Supporting Files */,
 			);
@@ -307,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1589F80B1CBFA65B00BDB4F9 /* CXEssenceViewController.m in Sources */,
+				15DA97C31CC0E12C004D174C /* UIBarButtonItem+CXExtension.m in Sources */,
 				1589F8141CBFA6AF00BDB4F9 /* CXMeViewController.m in Sources */,
 				1589F8171CBFA6E600BDB4F9 /* CXTabBarController.m in Sources */,
 				154DAEE41CBFAB4E00FD4360 /* UIView+CXExtension.m in Sources */,
