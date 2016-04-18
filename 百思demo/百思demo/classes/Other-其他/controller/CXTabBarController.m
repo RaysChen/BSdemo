@@ -12,7 +12,7 @@
 #import "CXFriendTrendsViewController.h"
 #import "CXMeViewController.h"
 #import "CXTabBar.h"
-
+#import "CXNavigationController.h"
 
 
 
@@ -65,7 +65,8 @@
         vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
         
         // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        CXNavigationController *nav = [[CXNavigationController alloc] initWithRootViewController:vc];
+        
         //设置背景图片
         [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
         [self addChildViewController:nav];

@@ -7,6 +7,7 @@
 //
 
 #import "CXEssenceViewController.h"
+#import "CXTestViewController.h"
 
 @interface CXEssenceViewController ()
 
@@ -28,8 +29,6 @@
     // 设置背景色
     self.view.backgroundColor = CXGlobalBg;
     
-
-
 }
 
 
@@ -37,5 +36,13 @@
 {
     CXLogFunc;
 }
+
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    CXTestViewController *vc = [[CXTestViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 @end

@@ -12,6 +12,8 @@
 		153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911471CBF7A930033C7CE /* LaunchScreen.storyboard */; };
 		153911541CBF7A930033C7CE /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153911531CBF7A930033C7CE /* __demoTests.m */; };
 		1539115F1CBF7A930033C7CE /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539115E1CBF7A930033C7CE /* __demoUITests.m */; };
+		15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15558FD81CC4CF150044CB32 /* CXNavigationController.m */; };
+		15558FDC1CC4D1290044CB32 /* CXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15558FDB1CC4D1290044CB32 /* CXTestViewController.m */; };
 		15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */; };
 		15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */; };
 		15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97D41CC0ECC8004D174C /* CXMeViewController.m */; };
@@ -53,6 +55,10 @@
 		1539115A1CBF7A930033C7CE /* 百思demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1539115E1CBF7A930033C7CE /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
 		153911601CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15558FD71CC4CF150044CB32 /* CXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNavigationController.h; sourceTree = "<group>"; };
+		15558FD81CC4CF150044CB32 /* CXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNavigationController.m; sourceTree = "<group>"; };
+		15558FDA1CC4D1290044CB32 /* CXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTestViewController.h; sourceTree = "<group>"; };
+		15558FDB1CC4D1290044CB32 /* CXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTestViewController.m; sourceTree = "<group>"; };
 		15DA97C71CC0ECC8004D174C /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
 		15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
 		15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -308,9 +314,11 @@
 			children = (
 				15DA97DE1CC0ECC8004D174C /* AppDelegate.h */,
 				15DA97DF1CC0ECC8004D174C /* AppDelegate.m */,
+				15DA97E81CC0ECC8004D174C /* main.m */,
+				15558FDA1CC4D1290044CB32 /* CXTestViewController.h */,
+				15558FDB1CC4D1290044CB32 /* CXTestViewController.m */,
 				15DA97E01CC0ECC8004D174C /* category */,
 				15DA97E51CC0ECC8004D174C /* controller */,
-				15DA97E81CC0ECC8004D174C /* main.m */,
 				15DA97EA1CC0ECC8004D174C /* view */,
 			);
 			path = "Other-其他";
@@ -332,6 +340,8 @@
 			children = (
 				15DA97E61CC0ECC8004D174C /* CXTabBarController.h */,
 				15DA97E71CC0ECC8004D174C /* CXTabBarController.m */,
+				15558FD71CC4CF150044CB32 /* CXNavigationController.h */,
+				15558FD81CC4CF150044CB32 /* CXNavigationController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -485,10 +495,12 @@
 				15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */,
 				15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */,
 				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
+				15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */,
 				15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */,
 				15DA97F11CC0ECC8004D174C /* AppDelegate.m in Sources */,
 				15DA97F51CC0ECC8004D174C /* main.m in Sources */,
 				15DA97F31CC0ECC8004D174C /* UIView+CXExtension.m in Sources */,
+				15558FDC1CC4D1290044CB32 /* CXTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
