@@ -24,6 +24,7 @@
 		15DA97F41CC0ECC8004D174C /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E71CC0ECC8004D174C /* CXTabBarController.m */; };
 		15DA97F51CC0ECC8004D174C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97E81CC0ECC8004D174C /* main.m */; };
 		15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97EC1CC0ECC8004D174C /* CXTabBar.m */; };
+		15E68AD51CC649C000F07127 /* CXFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E68AD41CC649C000F07127 /* CXFriendTrendsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		15DA97EB1CC0ECC8004D174C /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
 		15DA97EC1CC0ECC8004D174C /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
 		15DA97F71CC0EDD4004D174C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = "百思demo/PrefixHeader.pch"; sourceTree = "<group>"; };
+		15E68AD41CC649C000F07127 /* CXFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXFriendTrendsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */,
 				15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */,
+				15E68AD41CC649C000F07127 /* CXFriendTrendsViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */,
+				15E68AD51CC649C000F07127 /* CXFriendTrendsViewController.xib in Resources */,
 				153911461CBF7A930033C7CE /* Assets.xcassets in Resources */,
 				153911441CBF7A930033C7CE /* Main.storyboard in Resources */,
 			);
