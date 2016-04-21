@@ -14,6 +14,8 @@
 		1539115F1CBF7A930033C7CE /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1539115E1CBF7A930033C7CE /* __demoUITests.m */; };
 		15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15558FD81CC4CF150044CB32 /* CXNavigationController.m */; };
 		15558FDC1CC4D1290044CB32 /* CXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15558FDB1CC4D1290044CB32 /* CXTestViewController.m */; };
+		156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */; };
+		156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */; };
 		15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */; };
 		15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */; };
 		15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97D41CC0ECC8004D174C /* CXMeViewController.m */; };
@@ -54,7 +56,7 @@
 		1539114A1CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1539114F1CBF7A930033C7CE /* 百思demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		153911531CBF7A930033C7CE /* __demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoTests.m; sourceTree = "<group>"; };
-		153911551CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153911551CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "百思demoTests/Info.plist"; sourceTree = "<group>"; };
 		1539115A1CBF7A930033C7CE /* 百思demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1539115E1CBF7A930033C7CE /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
 		153911601CBF7A930033C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,9 @@
 		15558FD81CC4CF150044CB32 /* CXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNavigationController.m; sourceTree = "<group>"; };
 		15558FDA1CC4D1290044CB32 /* CXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTestViewController.h; sourceTree = "<group>"; };
 		15558FDB1CC4D1290044CB32 /* CXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTestViewController.m; sourceTree = "<group>"; };
+		156B05991CC87E0400EC0D96 /* CXRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendViewController.h; sourceTree = "<group>"; };
+		156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendViewController.m; sourceTree = "<group>"; };
+		156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendViewController.xib; sourceTree = "<group>"; };
 		15DA97C71CC0ECC8004D174C /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
 		15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
 		15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -118,6 +123,7 @@
 			children = (
 				15DA97F71CC0EDD4004D174C /* PrefixHeader.pch */,
 				153911381CBF7A930033C7CE /* 百思demo */,
+				153911551CBF7A930033C7CE /* Info.plist */,
 				153911521CBF7A930033C7CE /* 百思demoTests */,
 				1539115D1CBF7A930033C7CE /* 百思demoUITests */,
 				153911371CBF7A930033C7CE /* Products */,
@@ -160,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				153911531CBF7A930033C7CE /* __demoTests.m */,
-				153911551CBF7A930033C7CE /* Info.plist */,
 			);
 			path = "百思demoTests";
 			sourceTree = "<group>";
@@ -235,6 +240,9 @@
 				15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */,
 				15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */,
 				15E68AD41CC649C000F07127 /* CXFriendTrendsViewController.xib */,
+				156B05991CC87E0400EC0D96 /* CXRecommendViewController.h */,
+				156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */,
+				156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -492,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */,
 				153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */,
 				15E68AD51CC649C000F07127 /* CXFriendTrendsViewController.xib in Resources */,
 				153911461CBF7A930033C7CE /* Assets.xcassets in Resources */,
@@ -576,6 +585,7 @@
 				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
 				15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */,
 				15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */,
+				156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */,
 				15DA97F11CC0ECC8004D174C /* AppDelegate.m in Sources */,
 				15DA97F51CC0ECC8004D174C /* main.m in Sources */,
 				15DA97F31CC0ECC8004D174C /* UIView+CXExtension.m in Sources */,

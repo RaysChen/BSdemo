@@ -7,6 +7,7 @@
 //
 
 #import "CXFriendTrendsViewController.h"
+#import "CXRecommendViewController.h"
 
 @interface CXFriendTrendsViewController ()
 
@@ -36,15 +37,11 @@
 
 - (void)friendsClick
 {
-    CXLogFunc;
-}
-
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = CXRGBColor(200, 100, 50);
+    CXRecommendViewController *vc = [[CXRecommendViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+
+
 
 @end
