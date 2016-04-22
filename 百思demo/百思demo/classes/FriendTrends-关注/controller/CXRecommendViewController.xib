@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CXRecommendViewController">
             <connections>
+                <outlet property="categoryTableView" destination="1KW-Rz-Q3o" id="XEp-zZ-VUg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,26 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1KW-Rz-Q3o">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="M97-2Q-dCs"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="auK-B8-Ox9"/>
+                        <outlet property="delegate" destination="-1" id="rdf-yU-XK6"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1KW-Rz-Q3o" secondAttribute="bottom" id="7AQ-yd-Hkf"/>
+                <constraint firstItem="1KW-Rz-Q3o" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Bg7-9T-N63"/>
+                <constraint firstItem="1KW-Rz-Q3o" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MKs-SA-BcN"/>
+            </constraints>
+            <point key="canvasLocation" x="320" y="229"/>
         </view>
     </objects>
 </document>

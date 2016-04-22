@@ -10,11 +10,41 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;demo/classes/FriendTrends-&#x5173;&#x6ce8;/controller/CXRecommendViewController.m"
-            timestampString = "482902739.183607"
+            timestampString = "483010731.881809"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;demo/classes/FriendTrends-&#x5173;&#x6ce8;/controller/CXRecommendViewController.m"
+            timestampString = "483010731.881809"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x767e;&#x601d;demo/classes/FriendTrends-&#x5173;&#x6ce8;/controller/CXRecommendViewController.m"
+            timestampString = "483010831.801717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
