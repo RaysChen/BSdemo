@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1537BB4D1CCDEFB0009BD28A /* CXRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB4C1CCDEFB0009BD28A /* CXRecommendUserCell.m */; };
+		1537BB4F1CCDEFB8009BD28A /* CXRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1537BB4E1CCDEFB8009BD28A /* CXRecommendUserCell.xib */; };
+		1537BB521CCE0194009BD28A /* CXRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB511CCE0194009BD28A /* CXRecommendUser.m */; };
 		153911441CBF7A930033C7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911421CBF7A930033C7CE /* Main.storyboard */; };
 		153911461CBF7A930033C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153911451CBF7A930033C7CE /* Assets.xcassets */; };
 		153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153911471CBF7A930033C7CE /* LaunchScreen.storyboard */; };
@@ -52,6 +55,11 @@
 
 /* Begin PBXFileReference section */
 		00A00579C834ACD8B3C47E9A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1537BB4B1CCDEFB0009BD28A /* CXRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendUserCell.h; sourceTree = "<group>"; };
+		1537BB4C1CCDEFB0009BD28A /* CXRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendUserCell.m; sourceTree = "<group>"; };
+		1537BB4E1CCDEFB8009BD28A /* CXRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendUserCell.xib; sourceTree = "<group>"; };
+		1537BB501CCE0194009BD28A /* CXRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendUser.h; sourceTree = "<group>"; };
+		1537BB511CCE0194009BD28A /* CXRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendUser.m; sourceTree = "<group>"; };
 		153911361CBF7A930033C7CE /* 百思demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		153911431CBF7A930033C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		153911451CBF7A930033C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -260,6 +268,8 @@
 			children = (
 				15CD71831CC8E26D00807908 /* CXRecommendCategory.h */,
 				15CD71841CC8E26D00807908 /* CXRecommendCategory.m */,
+				1537BB501CCE0194009BD28A /* CXRecommendUser.h */,
+				1537BB511CCE0194009BD28A /* CXRecommendUser.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -270,6 +280,9 @@
 				157A02831CC9E28200DE507F /* CXRecommendCategoryCell.h */,
 				157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */,
 				157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */,
+				1537BB4B1CCDEFB0009BD28A /* CXRecommendUserCell.h */,
+				1537BB4C1CCDEFB0009BD28A /* CXRecommendUserCell.m */,
+				1537BB4E1CCDEFB8009BD28A /* CXRecommendUserCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -514,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */,
+				1537BB4F1CCDEFB8009BD28A /* CXRecommendUserCell.xib in Resources */,
 				153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */,
 				15E68AD51CC649C000F07127 /* CXFriendTrendsViewController.xib in Resources */,
 				153911461CBF7A930033C7CE /* Assets.xcassets in Resources */,
@@ -595,11 +609,13 @@
 				15DA97F21CC0ECC8004D174C /* UIBarButtonItem+CXExtension.m in Sources */,
 				15DA97F41CC0ECC8004D174C /* CXTabBarController.m in Sources */,
 				15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */,
+				1537BB4D1CCDEFB0009BD28A /* CXRecommendUserCell.m in Sources */,
 				15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */,
 				157A02861CC9E28200DE507F /* CXRecommendCategoryCell.m in Sources */,
 				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
 				15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */,
 				15CD71851CC8E26D00807908 /* CXRecommendCategory.m in Sources */,
+				1537BB521CCE0194009BD28A /* CXRecommendUser.m in Sources */,
 				15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */,
 				156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */,
 				15DA97F11CC0ECC8004D174C /* AppDelegate.m in Sources */,

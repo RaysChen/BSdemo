@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CXRecommendViewController">
             <connections>
                 <outlet property="categoryTableView" destination="1KW-Rz-Q3o" id="XEp-zZ-VUg"/>
+                <outlet property="userTableView" destination="91w-gc-4pX" id="OHA-Fu-o28"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1KW-Rz-Q3o">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1KW-Rz-Q3o" userLabel="左侧">
                     <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -27,12 +28,23 @@
                         <outlet property="delegate" destination="-1" id="rdf-yU-XK6"/>
                     </connections>
                 </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="91w-gc-4pX" userLabel="右侧">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8JJ-Ms-VHp"/>
+                    </connections>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="91w-gc-4pX" firstAttribute="leading" secondItem="1KW-Rz-Q3o" secondAttribute="trailing" id="6WG-yn-8lr"/>
                 <constraint firstAttribute="bottom" secondItem="1KW-Rz-Q3o" secondAttribute="bottom" id="7AQ-yd-Hkf"/>
                 <constraint firstItem="1KW-Rz-Q3o" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Bg7-9T-N63"/>
+                <constraint firstAttribute="trailing" secondItem="91w-gc-4pX" secondAttribute="trailing" id="IES-d6-jQO"/>
                 <constraint firstItem="1KW-Rz-Q3o" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MKs-SA-BcN"/>
+                <constraint firstAttribute="bottom" secondItem="91w-gc-4pX" secondAttribute="bottom" id="PDY-HQ-lmn"/>
+                <constraint firstItem="91w-gc-4pX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oe1-JS-DOn"/>
             </constraints>
             <point key="canvasLocation" x="320" y="229"/>
         </view>
