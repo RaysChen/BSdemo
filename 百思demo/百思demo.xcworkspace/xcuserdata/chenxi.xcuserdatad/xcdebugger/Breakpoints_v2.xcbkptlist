@@ -24,12 +24,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;demo/classes/FriendTrends-&#x5173;&#x6ce8;/controller/CXRecommendViewController.m"
-            timestampString = "483269228.07065"
+            timestampString = "484384895.818889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-loadNewUsers"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
