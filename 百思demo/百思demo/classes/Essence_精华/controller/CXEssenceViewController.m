@@ -7,7 +7,8 @@
 //
 
 #import "CXEssenceViewController.h"
-#import "CXTestViewController.h"
+#import "CXRecommendTagsViewController.h"
+
 
 @interface CXEssenceViewController ()
 
@@ -32,15 +33,11 @@
 }
 
 
+
+
 - (void)tagClick
 {
-    CXLogFunc;
-}
-
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    CXTestViewController *vc = [[CXTestViewController alloc] init];
+    CXRecommendTagsViewController *vc = [[CXRecommendTagsViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
