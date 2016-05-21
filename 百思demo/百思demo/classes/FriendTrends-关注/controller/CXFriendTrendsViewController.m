@@ -8,6 +8,7 @@
 
 #import "CXFriendTrendsViewController.h"
 #import "CXRecommendViewController.h"
+#import "CXLoginRegisterViewController.h"
 
 @interface CXFriendTrendsViewController ()
 
@@ -42,6 +43,10 @@
 }
 
 
+- (IBAction)loginRegister{
+    CXLoginRegisterViewController *login = [[CXLoginRegisterViewController alloc]init];
+    [self presentViewController:login animated:YES completion:nil];
+}
 
 
 @end

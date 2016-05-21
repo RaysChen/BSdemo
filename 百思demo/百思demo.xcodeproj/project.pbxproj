@@ -19,6 +19,8 @@
 		15558FDC1CC4D1290044CB32 /* CXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15558FDB1CC4D1290044CB32 /* CXTestViewController.m */; };
 		156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */; };
 		156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */; };
+		1577BD651CF004D600D3CA4C /* CXLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */; };
+		1577BD6A1CF01E0800D3CA4C /* CXLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */; };
 		157A02861CC9E28200DE507F /* CXRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */; };
 		157A02871CC9E28200DE507F /* CXRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */; };
 		1585F38F1CEEB9D90046F087 /* CXRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1585F38E1CEEB9D90046F087 /* CXRecommendTagsViewController.m */; };
@@ -82,6 +84,9 @@
 		156B05991CC87E0400EC0D96 /* CXRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendViewController.h; sourceTree = "<group>"; };
 		156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendViewController.m; sourceTree = "<group>"; };
 		156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendViewController.xib; sourceTree = "<group>"; };
+		1577BD621CF004D600D3CA4C /* CXLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLoginRegisterViewController.h; sourceTree = "<group>"; };
+		1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLoginRegisterViewController.m; sourceTree = "<group>"; };
+		1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXLoginRegisterViewController.xib; sourceTree = "<group>"; };
 		157A02831CC9E28200DE507F /* CXRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendCategoryCell.h; sourceTree = "<group>"; };
 		157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendCategoryCell.m; sourceTree = "<group>"; };
 		157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendCategoryCell.xib; sourceTree = "<group>"; };
@@ -277,6 +282,9 @@
 				156B05991CC87E0400EC0D96 /* CXRecommendViewController.h */,
 				156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */,
 				156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */,
+				1577BD621CF004D600D3CA4C /* CXLoginRegisterViewController.h */,
+				1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */,
+				1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -545,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1585F3991CEEBE440046F087 /* CXRecommendTagCell.xib in Resources */,
+				1577BD6A1CF01E0800D3CA4C /* CXLoginRegisterViewController.xib in Resources */,
 				156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */,
 				1537BB4F1CCDEFB8009BD28A /* CXRecommendUserCell.xib in Resources */,
 				153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */,
@@ -634,6 +643,7 @@
 				15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */,
 				1585F3961CEEBB010046F087 /* CXRecommendTagCell.m in Sources */,
 				157A02861CC9E28200DE507F /* CXRecommendCategoryCell.m in Sources */,
+				1577BD651CF004D600D3CA4C /* CXLoginRegisterViewController.m in Sources */,
 				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
 				15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */,
 				15CD71851CC8E26D00807908 /* CXRecommendCategory.m in Sources */,

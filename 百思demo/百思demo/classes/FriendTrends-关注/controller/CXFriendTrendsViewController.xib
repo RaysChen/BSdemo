@@ -28,6 +28,9 @@
                     <state key="highlighted" backgroundImage="friendsTrend_login_click">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="loginRegister" destination="-1" eventType="touchUpInside" id="Ve1-eq-gog"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSt-uv-Vt8">
                     <rect key="frame" x="165" y="270" width="270" height="61"/>
