@@ -21,6 +21,7 @@
 		156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */; };
 		1577BD651CF004D600D3CA4C /* CXLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */; };
 		1577BD6A1CF01E0800D3CA4C /* CXLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */; };
+		1577BD6D1CF026C600D3CA4C /* CXVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577BD6C1CF026C600D3CA4C /* CXVerticalButton.m */; };
 		157A02861CC9E28200DE507F /* CXRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */; };
 		157A02871CC9E28200DE507F /* CXRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */; };
 		1585F38F1CEEB9D90046F087 /* CXRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1585F38E1CEEB9D90046F087 /* CXRecommendTagsViewController.m */; };
@@ -87,6 +88,8 @@
 		1577BD621CF004D600D3CA4C /* CXLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLoginRegisterViewController.h; sourceTree = "<group>"; };
 		1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLoginRegisterViewController.m; sourceTree = "<group>"; };
 		1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		1577BD6B1CF026C600D3CA4C /* CXVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXVerticalButton.h; sourceTree = "<group>"; };
+		1577BD6C1CF026C600D3CA4C /* CXVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXVerticalButton.m; sourceTree = "<group>"; };
 		157A02831CC9E28200DE507F /* CXRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendCategoryCell.h; sourceTree = "<group>"; };
 		157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendCategoryCell.m; sourceTree = "<group>"; };
 		157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendCategoryCell.xib; sourceTree = "<group>"; };
@@ -309,6 +312,8 @@
 				1537BB4B1CCDEFB0009BD28A /* CXRecommendUserCell.h */,
 				1537BB4C1CCDEFB0009BD28A /* CXRecommendUserCell.m */,
 				1537BB4E1CCDEFB8009BD28A /* CXRecommendUserCell.xib */,
+				1577BD6B1CF026C600D3CA4C /* CXVerticalButton.h */,
+				1577BD6C1CF026C600D3CA4C /* CXVerticalButton.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -647,6 +652,7 @@
 				15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */,
 				15558FD91CC4CF150044CB32 /* CXNavigationController.m in Sources */,
 				15CD71851CC8E26D00807908 /* CXRecommendCategory.m in Sources */,
+				1577BD6D1CF026C600D3CA4C /* CXVerticalButton.m in Sources */,
 				1537BB521CCE0194009BD28A /* CXRecommendUser.m in Sources */,
 				15DA97F61CC0ECC8004D174C /* CXTabBar.m in Sources */,
 				156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */,

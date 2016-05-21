@@ -57,7 +57,7 @@
                                 <constraint firstAttribute="width" constant="103" id="sZk-Y7-Lqn"/>
                             </constraints>
                         </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vl-BJ-PWd" customClass="XMGVerticalButton">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vl-BJ-PWd" customClass="CXVerticalButton">
                             <rect key="frame" x="135" y="27" width="70" height="95"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="70" id="8Vp-Ce-5jt"/>
@@ -69,7 +69,7 @@
                             </state>
                             <state key="highlighted" image="login_QQ_icon_click"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-OG-Kjd" customClass="XMGVerticalButton">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-OG-Kjd" customClass="CXVerticalButton">
                             <rect key="frame" x="395" y="27" width="70" height="95"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="95" id="LJx-aG-YaX"/>
@@ -81,7 +81,7 @@
                             </state>
                             <state key="highlighted" image="login_tecent_icon_click"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ1-4X-9ig" customClass="XMGVerticalButton">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ1-4X-9ig" customClass="CXVerticalButton">
                             <rect key="frame" x="265" y="27" width="70" height="95"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="70" id="XkW-dT-DwV"/>
