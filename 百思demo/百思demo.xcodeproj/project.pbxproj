@@ -20,8 +20,8 @@
 		156B059C1CC87E0400EC0D96 /* CXRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156B059A1CC87E0400EC0D96 /* CXRecommendViewController.m */; };
 		156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */; };
 		1577BD651CF004D600D3CA4C /* CXLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */; };
-		1577BD6A1CF01E0800D3CA4C /* CXLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */; };
 		1577BD6D1CF026C600D3CA4C /* CXVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577BD6C1CF026C600D3CA4C /* CXVerticalButton.m */; };
+		1577BD6F1CF03FAF00D3CA4C /* CXLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1577BD6E1CF03FAF00D3CA4C /* CXLoginRegisterViewController.xib */; };
 		157A02861CC9E28200DE507F /* CXRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */; };
 		157A02871CC9E28200DE507F /* CXRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */; };
 		1585F38F1CEEB9D90046F087 /* CXRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1585F38E1CEEB9D90046F087 /* CXRecommendTagsViewController.m */; };
@@ -87,9 +87,9 @@
 		156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendViewController.xib; sourceTree = "<group>"; };
 		1577BD621CF004D600D3CA4C /* CXLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLoginRegisterViewController.h; sourceTree = "<group>"; };
 		1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLoginRegisterViewController.m; sourceTree = "<group>"; };
-		1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXLoginRegisterViewController.xib; sourceTree = "<group>"; };
 		1577BD6B1CF026C600D3CA4C /* CXVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXVerticalButton.h; sourceTree = "<group>"; };
 		1577BD6C1CF026C600D3CA4C /* CXVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXVerticalButton.m; sourceTree = "<group>"; };
+		1577BD6E1CF03FAF00D3CA4C /* CXLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXLoginRegisterViewController.xib; sourceTree = "<group>"; };
 		157A02831CC9E28200DE507F /* CXRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRecommendCategoryCell.h; sourceTree = "<group>"; };
 		157A02841CC9E28200DE507F /* CXRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRecommendCategoryCell.m; sourceTree = "<group>"; };
 		157A02851CC9E28200DE507F /* CXRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXRecommendCategoryCell.xib; sourceTree = "<group>"; };
@@ -287,7 +287,7 @@
 				156B059B1CC87E0400EC0D96 /* CXRecommendViewController.xib */,
 				1577BD621CF004D600D3CA4C /* CXLoginRegisterViewController.h */,
 				1577BD631CF004D600D3CA4C /* CXLoginRegisterViewController.m */,
-				1577BD691CF01E0800D3CA4C /* CXLoginRegisterViewController.xib */,
+				1577BD6E1CF03FAF00D3CA4C /* CXLoginRegisterViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -558,7 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1585F3991CEEBE440046F087 /* CXRecommendTagCell.xib in Resources */,
-				1577BD6A1CF01E0800D3CA4C /* CXLoginRegisterViewController.xib in Resources */,
+				1577BD6F1CF03FAF00D3CA4C /* CXLoginRegisterViewController.xib in Resources */,
 				156B059D1CC87E0400EC0D96 /* CXRecommendViewController.xib in Resources */,
 				1537BB4F1CCDEFB8009BD28A /* CXRecommendUserCell.xib in Resources */,
 				153911491CBF7A930033C7CE /* LaunchScreen.storyboard in Resources */,

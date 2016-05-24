@@ -31,6 +31,7 @@
     // 设置背景色
     self.view.backgroundColor = CXGlobalBg;
     
+    
 
 
 
