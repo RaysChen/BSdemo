@@ -8,7 +8,7 @@
 
 #import "CXWordViewController.h"
 #import <AFNetworking.H>
-#import <UIButton+WebCache.h>
+#import <UIImageView+WebCache.h>
 
 @interface CXWordViewController ()
 /**
@@ -64,7 +64,7 @@
     NSDictionary *topic = self.topics[indexPath.row];
     cell.textLabel.text = topic[@"name"];
     cell.detailTextLabel.text = topic[@"text"];
-   // [cell.imageView sd_setImageWithURL:[NSURL URLWithString:topic[@"profile_image"]] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    [cell.imageView sd_setImageWithURL:[NSURL URLWithString:topic[@"profile_image"]] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     
     return cell;
 }
