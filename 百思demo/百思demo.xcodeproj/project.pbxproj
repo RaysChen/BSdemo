@@ -34,6 +34,7 @@
 		15D4927F1D051DFD00C06433 /* CXVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D4927E1D051DFD00C06433 /* CXVoiceViewController.m */; };
 		15D492821D051E2300C06433 /* CXPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D492811D051E2300C06433 /* CXPictureViewController.m */; };
 		15D492851D051E3A00C06433 /* CXWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D492841D051E3A00C06433 /* CXWordViewController.m */; };
+		15D492881D06C5E700C06433 /* CXTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D492871D06C5E700C06433 /* CXTopic.m */; };
 		15DA97ED1CC0ECC8004D174C /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */; };
 		15DA97EE1CC0ECC8004D174C /* CXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97CE1CC0ECC8004D174C /* CXFriendTrendsViewController.m */; };
 		15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA97D41CC0ECC8004D174C /* CXMeViewController.m */; };
@@ -117,6 +118,8 @@
 		15D492811D051E2300C06433 /* CXPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPictureViewController.m; sourceTree = "<group>"; };
 		15D492831D051E3A00C06433 /* CXWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXWordViewController.h; sourceTree = "<group>"; };
 		15D492841D051E3A00C06433 /* CXWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXWordViewController.m; sourceTree = "<group>"; };
+		15D492861D06C5E700C06433 /* CXTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTopic.h; sourceTree = "<group>"; };
+		15D492871D06C5E700C06433 /* CXTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTopic.m; sourceTree = "<group>"; };
 		15DA97C71CC0ECC8004D174C /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
 		15DA97C81CC0ECC8004D174C /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
 		15DA97CD1CC0ECC8004D174C /* CXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 			children = (
 				1585F3901CEEBAB90046F087 /* CXRecommendTag.h */,
 				1585F3911CEEBAB90046F087 /* CXRecommendTag.m */,
+				15D492861D06C5E700C06433 /* CXTopic.h */,
+				15D492871D06C5E700C06433 /* CXTopic.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -669,6 +674,7 @@
 				15D4927F1D051DFD00C06433 /* CXVoiceViewController.m in Sources */,
 				1585F38F1CEEB9D90046F087 /* CXRecommendTagsViewController.m in Sources */,
 				1585F3921CEEBAB90046F087 /* CXRecommendTag.m in Sources */,
+				15D492881D06C5E700C06433 /* CXTopic.m in Sources */,
 				15D492791D051DC300C06433 /* CXAllViewController.m in Sources */,
 				15DA97EF1CC0ECC8004D174C /* CXMeViewController.m in Sources */,
 				1537BB4D1CCDEFB0009BD28A /* CXRecommendUserCell.m in Sources */,
