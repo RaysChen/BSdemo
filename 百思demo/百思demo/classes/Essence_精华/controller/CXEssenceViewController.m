@@ -155,6 +155,7 @@
     // 滚动
     CGPoint offset = self.contentView.contentOffset;
     offset.x = button.tag * self.contentView.width;
+    
     [self.contentView setContentOffset:offset animated:YES];
 }
 
@@ -175,6 +176,9 @@
     [self.view insertSubview:contentView atIndex:0];
     contentView.contentSize = CGSizeMake(contentView.width * self.childViewControllers.count, 0);
     self.contentView = contentView;
+    
+    
+    
     
     // 添加第一个控制器的view
     [self scrollViewDidEndScrollingAnimation:contentView];
@@ -202,12 +206,8 @@
     vc.view.x = scrollView.contentOffset.x;
     vc.view.y = 0; // 设置控制器view的y值为0(默认是20)
     vc.view.height = scrollView.height; // 设置控制器view的height值为整个屏幕的高度(默认是比屏幕高度少个20)
-    // 设置内边距
-    CGFloat bottom = self.tabBarController.tabBar.height;
-    CGFloat top = CGRectGetMaxY(self.titlesView.frame);
-    vc.tableView.contentInset = UIEdgeInsetsMake(top, 0, bottom, 0);
-    // 设置滚动条的内边距
-    vc.tableView.scrollIndicatorInsets = vc.tableView.contentInset;
+    
+    
     [scrollView addSubview:vc.view];
 }
 

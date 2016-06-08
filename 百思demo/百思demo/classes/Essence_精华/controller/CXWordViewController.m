@@ -13,6 +13,7 @@
 #import <MJRefresh.h>
 #import <MJExtension.h>
 
+
 @interface CXWordViewController ()
 /** 帖子数据 */
 @property (nonatomic, strong) NSMutableArray *topics;
@@ -41,8 +42,21 @@
     [super viewDidLoad];
     // 添加刷新控件
     [self setupRefresh];
+    //刷新表格
+    [self setupTableView];
    
   }
+
+-(void)setupTableView
+{
+    // 设置内边距
+    CGFloat bottom = self.tabBarController.tabBar.height;
+    CGFloat top = 35 +64 ;
+    self.tableView.contentInset = UIEdgeInsetsMake(top, 0, bottom, 0);
+    // 设置滚动条的内边距
+    self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
+
+}
 
 
 -(void)setupRefresh
